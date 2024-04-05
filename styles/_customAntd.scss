@@ -1,0 +1,196 @@
+/* Ant Message */
+.ant-message {
+  .ant-message-custom-content {
+    display: flex;
+    align-items: center;
+    line-height: 1;
+    .anticon {
+      margin-top: -4px;
+    }
+  }
+}
+
+/* Ant Menu */
+.ant-menu {
+  .ant-menu-submenu.ant-zoom-big-leave {
+    display: none;
+  }
+}
+
+/* Ant Select */
+.ant-select {
+  .ant-select-selection-placeholder {
+    display: flex;
+    align-items: center;
+  }
+}
+.ant-select-selection-item {
+  display: inline-flex;
+  align-items: center;
+
+  .ant-select-selection-item-remove {
+    display: inline-flex;
+  }
+}
+.ant-select-clear {
+  display: inline-flex;
+  margin-top: 0;
+  transform: translateY(-50%);
+}
+
+/* Ant Table */
+.ant-table-thead {
+  .ant-table-column-sorters {
+    .ant-table-column-sorter {
+      display: inline-flex;
+      .ant-table-column-sorter-inner {
+        margin-bottom: 2px;
+      }
+    }
+  }
+}
+.ant-table-tbody {
+  .ant-table-cell {
+    vertical-align: middle;
+    line-height: 1;
+  }
+}
+
+/* Ant Popconfirm */
+.ant-popconfirm {
+  .ant-popover-message {
+    .anticon {
+      margin-top: 1px;
+    }
+  }
+  .ant-popover-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+
+/* Ant Input */
+.ant-input-affix-wrapper {
+  .ant-input-suffix {
+    .ant-input-clear-icon {
+      display: inline-flex;
+    }
+  }
+}
+
+/* Ant Picker */
+.ant-picker-range {
+  .ant-picker-range-separator {
+    .ant-picker-separator {
+      display: inline-flex;
+    }
+  }
+}
+
+/* Ant Avatar */
+.ant-avatar {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Ant Modal */
+.ant-modal-close-x {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ant-modal-wrap.no-header .ant-modal-close,
+.ant-modal-wrap.no-header .ant-modal-header {
+  display: none;
+}
+.ant-modal-confirm .ant-modal-confirm-btns {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/* Ant Pagination */
+.ant-pagination {
+  .ant-pagination-prev,
+  .ant-pagination-next {
+    .ant-pagination-item-link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+/* Ant Form */
+.ant-form {
+  .ant-form-item {
+    margin-bottom: 12px;
+    .ant-form-item-label {
+      padding-bottom: 2px;
+      & > label,
+      .ant-form-item-required {
+        flex-direction: row-reverse;
+        height: auto;
+        &::before {
+          margin-left: 2px;
+        }
+        .ant-form-item-tooltip {
+          position: absolute;
+          transform: translateX(calc(100% + 5px));
+        }
+      }
+    }
+    .ant-form-item-control {
+      .ant-form-item-explain {
+        margin-top: 2px;
+        min-height: 0;
+        .ant-form-item-explain-error {
+          font-size: 80%;
+        }
+      }
+    }
+  }
+}
+
+/* Ant Notification */
+.ant-notification {
+  z-index: 999999999;
+}
+
+/* Ant Button */
+.ant-btn {
+  &:has(.anticon) {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    .anticon {
+      display: inline-flex;
+    }
+  }
+}
+
+/* Ant Upload */
+.ant-upload-picture-card-wrapper {
+  .ant-upload.ant-upload-select {
+    .ant-upload {
+      overflow: hidden;
+    }
+  }
+}
+.ant-upload-list {
+  .ant-upload-text-icon {
+    display: inline-flex;
+  }
+}
+
+/* Ant Breadcrumb */
+.ant-breadcrumb {
+  .ant-breadcrumb-link {
+    a {
+      text-decoration: none;
+    }
+  }
+}

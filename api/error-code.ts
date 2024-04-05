@@ -1,0 +1,31 @@
+const ErrorCode: Record<string, string> = {
+  BRAND_NOT_EXIST: 'Brand has been changed by the owner or does not exist. Please reload the page!',
+  BRANDS_IS_USED: 'The brand is already in use',
+  CATEGORY_BLOG_EXIST: 'This category already exists',
+  CATEGORY_BLOG_IS_USED: 'This category is already in use',
+  CATEGORY_EXIST: 'Category is exist',
+  CATEGORY_HELP_EXIST: 'This category already exists',
+  CATEGORY_HELP_IS_USED: 'The category is already in use',
+  CATEGORY_NOT_EXIST:
+    'Category has been changed by the owner or does not exist. Please reload the page!',
+  COUPON_IS_EXISTS: 'This coupon code already exists. Please try again with another code.',
+  COUPON_IS_USED: 'This discount code is already used, please reload the page!',
+  DISCONNECT_INTERNET: 'Please check your internet connection and try again.',
+  FEEDBACK_IS_FULFILLED: 'This order has been completed',
+  FEEDBACK_IS_PROCESSING: 'This product has submitted feedback, please reload the page!',
+  ITEM_NOT_FOUND: 'Item not found. Please reload page',
+  LICENSE_IS_USED: 'The license is already in use',
+  LICENSE_NOT_EXIST:
+    'License has been changed by the owner or does not exist. Please reload the page!',
+  LIST_ITEM_INVALID: 'Please remove invalid products',
+  MISSING_DATA: 'Insufficient input data',
+  MODELING_PRICE_NOT_FOUND: 'This quote package has been removed, please reload the page',
+  PERMISSION_DENIED: `You don't have permission to execute this request`,
+  PRICE_0_EXSIST: 'This package already exists, please try again',
+  PRICE_IS_EXSIST: 'This price already exists',
+  SLUG_EXIST: 'Slug was used in another post',
+  TOKEN_NOT_CORRECT: 'Your session has expired, please log in again.',
+  USER_IS_LOCKED: 'User is locked',
+  ORDER_IS_CANCELED: 'This order has been canceled by user. Please reload page!',
+};
+export default ErrorCode;
